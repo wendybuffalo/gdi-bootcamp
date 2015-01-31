@@ -1,20 +1,23 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="../../css/main.css">
+        <style>
+            .status-off {
+                color: red;
+            }
+        </style>
     </head>
     <body>
         <div id="header">
             <a class="header-button" id="btnLogin" href="#">Login</a>
+
             <p id="user-status">Logged Out</p>
         </div>
 
-        <h2>Exercise</h2>
-        <ul>
-            <li>Add a new link on the page (anywhere, it's up to you)</li>
-            <li>Add a click listener to that link to <code>console.log("Hello, World");</code></li>
-        </ul>
+        <h2>Status: <a href="#" id="status">On</a></h2>
+
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        <script src="js/main1.js"></script>
+        <script src="main.js"></script>
     </body>
 </html>
