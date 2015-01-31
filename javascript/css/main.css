@@ -1,0 +1,71 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    background-color: #333;
+    font-size: 1em;
+    height: 50px;
+    overflow: hidden;
+    padding: 0 10px;
+    width: 100%;
+}
+
+#container {
+    padding: 10px;
+}
+
+#header .header-button {
+    background-color: #111;
+    border-left: 1px solid #666;
+    color: #eee;
+    float: right;
+    font-weight: bold;
+    height: 100%;
+    padding: 17px 10px 0 10px;
+    text-decoration: none;
+}
+
+#header .header-button:first-child {
+    margin-right: 10px;
+}
+
+#header .header-button:hover {
+    background-color: #222;
+}
+
+#user-status {
+    float: right;
+    padding-right: 15px;
+    color: #fff;
+}
+
+#user-status.logged-in {
+    color: #7ce700;
+}
+
+#stories h3 {
+    background-color: #ddd;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    cursor: pointer;
+    height: 20px;
+    margin: 15px 0 0 0;
+    padding: 4px;
+    width: 400px;
+}
+
+#stories h3.collapsed {
+    background-color: #ddd;
+    border-color: #ddd;
+}
+
+#stories h3 + div {
+    border-color: #eee;
+    border-style: solid;
+    border-width: 0px 1px 1px 1px;
+    padding: 4px;
+    width: 400px;
+}
